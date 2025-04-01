@@ -123,4 +123,5 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'base_url_integration' => env('BASE_URL_INTEGRATION', 'http://host.docker.internal:3000')
 ];
